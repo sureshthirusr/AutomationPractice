@@ -48,7 +48,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jun 16, 2020 07:39:17 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Jun 18, 2020 09:59:43 AM</span>
 				</a>
 			</li>
 			<li>
@@ -186,7 +186,7 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>AutomationPractice End to End Test Case</span>
-						<span class='test-time'>Jun 16, 2020 07:39:17 PM</span>
+						<span class='test-time'>Jun 18, 2020 09:59:43 AM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -194,7 +194,7 @@
 	<div class='category-list'>
 		<span class='category label white-text'>@RegressionTest</span>
 	</div>
-	<span class='duration right label'>0h 0m 16s+999ms</span>
+	<span class='duration right label'>0h 0m 15s+883ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Verify the customer or user is able to Login the Application</span>
@@ -267,7 +267,7 @@
 	</ul>
 </div>
 <div class='scenario node' test-id='11' status='pass'>
-	<span class='duration right label'>0h 0m 0s+8ms</span>
+	<span class='duration right label'>0h 0m 0s+6ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Verify the user is able to select the product based on menu navigation</span>
@@ -324,7 +324,7 @@
 	</ul>
 </div>
 <div class='scenario node' test-id='18' status='pass'>
-	<span class='duration right label'>0h 0m 0s+13ms</span>
+	<span class='duration right label'>0h 0m 0s+10ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Verify the user is able to place the order</span>
@@ -405,7 +405,7 @@
 	</ul>
 </div>
 <div class='scenario node' test-id='28' status='pass'>
-	<span class='duration right label'>0h 0m 0s+8ms</span>
+	<span class='duration right label'>0h 0m 0s+10ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Verify the user is able to click on payment</span>
@@ -462,7 +462,7 @@
 	</ul>
 </div>
 <div class='scenario node' test-id='35' status='pass'>
-	<span class='duration right label'>0h 0m 0s+6ms</span>
+	<span class='duration right label'>0h 0m 0s+5ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Failed Verify the user is able to Logout the Application</span>
@@ -503,7 +503,7 @@
 	</ul>
 </div>
 <div class='scenario node' test-id='40' status='fail'>
-	<span class='duration right label'>0h 1m 9s+539ms</span>
+	<span class='duration right label'>0h 0m 11s+326ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Facebook navigation</span>
@@ -562,26 +562,12 @@
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then User validate the homepage</span>
-				<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dfdf"}
-  (Session info: chrome=83.0.4103.97)
+				<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=dfdf
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-FR81P7PN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\91917\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e20db01cf1cb59c2d83ab861d5043e51
-*** Element info: {Using=id, value=dfdf}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
 	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
@@ -669,7 +655,7 @@ Session ID: e20db01cf1cb59c2d83ab861d5043e51
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jun 16, 2020 07:39:17 PM</td>
+										<td>Jun 18, 2020 09:59:43 AM</td>
 										<td class='linked' test-id='1'>AutomationPractice End to End Test Case</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -703,7 +689,7 @@ Session ID: e20db01cf1cb59c2d83ab861d5043e51
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jun 16, 2020 07:39:17 PM</td>
+										<td>Jun 18, 2020 09:59:43 AM</td>
 										<td class='linked' test-id='2'>AutomationPractice End to End Test Case.Verify the customer or user is able to Login the Application</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -766,28 +752,14 @@ Session ID: e20db01cf1cb59c2d83ab861d5043e51
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Jun 16, 2020 07:39:43 PM</td>
+                                                        <td>Jun 18, 2020 10:00:01 AM</td>
                                                         <td class='linked' test-id='47'>AutomationPractice End to End Test Case.Facebook navigation.Then User validate the homepage</td>
-                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dfdf"}
-  (Session info: chrome=83.0.4103.97)
+                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=dfdf
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-FR81P7PN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\91917\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e20db01cf1cb59c2d83ab861d5043e51
-*** Element info: {Using=id, value=dfdf}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
 	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
@@ -837,19 +809,19 @@ Session ID: e20db01cf1cb59c2d83ab861d5043e51
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jun 16, 2020 07:39:17 PM</div>
+					<div class='panel-lead'>Jun 18, 2020 09:59:43 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jun 16, 2020 07:40:44 PM</div>
+			 		<div class='panel-lead'>Jun 18, 2020 10:00:10 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>87,364ms</div>
+					<div class='panel-lead'>27,600ms</div>
 				</div>
 			</div>
 			<div class='col s6'>

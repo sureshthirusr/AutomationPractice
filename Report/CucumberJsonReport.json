@@ -1,0 +1,781 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 231939101,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open application",
+            "match": {
+              "location": "AutomationStepDefinition.user_open_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62599,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User reach the homepage",
+            "match": {
+              "location": "AutomationStepDefinition.user_reach_the_homepage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 943800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationStepDefinition.beforeHooks(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 198400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify the customer or user is able to Login the Application",
+        "description": "",
+        "id": "automationpractice-end-to-end-test-case;verify-the-customer-or-user-is-able-to-login-the-application",
+        "after": [
+          {
+            "result": {
+              "duration": 204001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationStepDefinition.afterHooks(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 42300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9828369100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User launch the AutomationPractice application",
+            "match": {
+              "location": "AutomationStepDefinition.user_launch_the_AutomationPractice_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2074056600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Click on SignIn Button in the header",
+            "match": {
+              "location": "AutomationStepDefinition.user_Click_on_SignIn_Button_in_the_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1549935800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Enter email Id \"abcd1ef@gmail.com\" in SignIn page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcd1ef@gmail.com",
+                  "offset": 21
+                }
+              ],
+              "location": "AutomationStepDefinition.user_Enter_email_Id_in_SignIn_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161492700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Enter Password \"12345\" in SignIn page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 21
+                }
+              ],
+              "location": "AutomationStepDefinition.user_Enter_Password_in_SignIn_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1919467500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Click SignIn button in SignIn page",
+            "match": {
+              "location": "AutomationStepDefinition.user_Click_SignIn_button_in_SignIn_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28201,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Verify the UserName displayed in the header",
+            "match": {
+              "location": "AutomationStepDefinition.user_Verify_the_UserName_displayed_in_the_header()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 151900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open application",
+            "match": {
+              "location": "AutomationStepDefinition.user_open_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User reach the homepage",
+            "match": {
+              "location": "AutomationStepDefinition.user_reach_the_homepage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 75900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationStepDefinition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify the user is able to select the product based on menu navigation",
+        "description": "",
+        "id": "automationpractice-end-to-end-test-case;verify-the-user-is-able-to-select-the-product-based-on-menu-navigation",
+        "after": [
+          {
+            "result": {
+              "duration": 131899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationStepDefinition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on the Menu navigation in the Header",
+            "match": {
+              "location": "AutomationStepDefinition.user_click_on_the_Menu_navigation_in_the_Header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19799,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Click on the Product Selection in the Menu Navigation",
+            "match": {
+              "location": "AutomationStepDefinition.user_Click_on_the_Product_Selection_in_the_Menu_Navigation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31599,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User to view the Product in  the page",
+            "match": {
+              "location": "AutomationStepDefinition.user_to_view_the_Product_in_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Verify the product in the given page",
+            "match": {
+              "location": "AutomationStepDefinition.user_Verify_the_product_in_the_given_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 226799,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open application",
+            "match": {
+              "location": "AutomationStepDefinition.user_open_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 105200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User reach the homepage",
+            "match": {
+              "location": "AutomationStepDefinition.user_reach_the_homepage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 119100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationStepDefinition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify the user is able to place the order",
+        "description": "",
+        "id": "automationpractice-end-to-end-test-case;verify-the-user-is-able-to-place-the-order",
+        "after": [
+          {
+            "result": {
+              "duration": 74900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationStepDefinition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User able to select the product",
+            "match": {
+              "location": "AutomationStepDefinition.user_able_to_select_the_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14699,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User able to click the product which customer want",
+            "match": {
+              "location": "AutomationStepDefinition.user_able_to_click_the_product_which_customer_want()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14399,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User able to select the quantity, size and color",
+            "match": {
+              "location": "AutomationStepDefinition.user_able_to_select_the_quantity_size_and_color()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19799,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click the proceed to checkout",
+            "match": {
+              "location": "AutomationStepDefinition.user_click_the_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18899,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User verify the delivery address",
+            "match": {
+              "location": "AutomationStepDefinition.user_verify_the_delivery_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User click the proceed button",
+            "match": {
+              "location": "AutomationStepDefinition.user_click_the_proceed_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User verify the product which is selected",
+            "match": {
+              "location": "AutomationStepDefinition.user_verify_the_product_which_is_selected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 62699,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open application",
+            "match": {
+              "location": "AutomationStepDefinition.user_open_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85501,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User reach the homepage",
+            "match": {
+              "location": "AutomationStepDefinition.user_reach_the_homepage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 57100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationStepDefinition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Verify the user is able to click on payment",
+        "description": "",
+        "id": "automationpractice-end-to-end-test-case;verify-the-user-is-able-to-click-on-payment",
+        "after": [
+          {
+            "result": {
+              "duration": 95399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationStepDefinition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User able to select the payment mode on the payment page",
+            "match": {
+              "location": "AutomationStepDefinition.user_able_to_select_the_payment_mode_on_the_payment_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56901,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User click on the Payment mode which he prefers",
+            "match": {
+              "location": "AutomationStepDefinition.user_click_on_the_Payment_mode_which_he_prefers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63001,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User click on the confirm order button",
+            "match": {
+              "location": "AutomationStepDefinition.user_click_on_the_confirm_order_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24099,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User verify the order is placed or not",
+            "match": {
+              "location": "AutomationStepDefinition.user_verify_the_order_is_placed_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 58300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open application",
+            "match": {
+              "location": "AutomationStepDefinition.user_open_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User reach the homepage",
+            "match": {
+              "location": "AutomationStepDefinition.user_reach_the_homepage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 74600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationStepDefinition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Failed Verify the user is able to Logout the Application",
+        "description": "",
+        "id": "automationpractice-end-to-end-test-case;failed-verify-the-user-is-able-to-logout-the-application",
+        "after": [
+          {
+            "result": {
+              "duration": 82401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationStepDefinition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Failed User to click on SignOut button",
+            "match": {
+              "location": "AutomationStepDefinition.Failed_user_to_click_on_SignOut_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Failed User verify the logout session",
+            "match": {
+              "location": "AutomationStepDefinition.Failed_user_verify_the_logout_session()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 69899,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open application",
+            "match": {
+              "location": "AutomationStepDefinition.user_open_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User reach the homepage",
+            "match": {
+              "location": "AutomationStepDefinition.user_reach_the_homepage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 80200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationStepDefinition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Facebook navigation",
+        "description": "",
+        "id": "automationpractice-end-to-end-test-case;facebook-navigation",
+        "after": [
+          {
+            "result": {
+              "duration": 141499701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomationStepDefinition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1751382500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user launch the facebook application",
+            "match": {
+              "location": "AutomationStepDefinition.user_launch_the_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105721400,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User click on login button",
+            "match": {
+              "location": "AutomationStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88200300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User click on password button",
+            "match": {
+              "location": "AutomationStepDefinition.user_click_on_password_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72143900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User click on login button",
+            "match": {
+              "location": "AutomationStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9256244499,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using id\u003ddfdf\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-FR81P7PN\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.cucumber.stepdefinition.AutomationStepDefinition.user_validate_the_homepage(AutomationStepDefinition.java:208)\r\n\tat ✽.Then User validate the homepage(src/test/java/com/cucumber/feature/AutomationPractice.feature:47)\r\n",
+              "status": "failed"
+            },
+            "line": 47,
+            "name": "User validate the homepage",
+            "match": {
+              "location": "AutomationStepDefinition.user_validate_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "AutomationPractice End to End Test Case",
+    "description": "",
+    "id": "automationpractice-end-to-end-test-case",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/cucumber/feature/AutomationPractice.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SmokeTest"
+      }
+    ]
+  }
+]
